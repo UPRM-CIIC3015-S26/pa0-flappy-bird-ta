@@ -14,9 +14,11 @@ The project is designed as an introductory programming assignment (PA0). Most of
 ## 👥 Team Information
 
 ### Partner #1
-- **Name:**
-- **Student Number:**
-- **Email:**
+- **Yalimarie Perez:**
+- **802230045:**
+- **yalimarie.perez@upr.edu:**
+## Note
+This project was completed individually due to group changes.
 
 ### Partner #2
 - **Name:**
