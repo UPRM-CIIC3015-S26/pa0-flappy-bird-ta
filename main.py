@@ -1,5 +1,6 @@
 import pygame, random
 pygame.init()
+score_sound = pygame.mixer.Sound("score.wav")
 '''
 Welcome to PA0 – Flappy Bird! Throughout this code, you are going to find a recreation of a game you have probably
 heard of before. This is an introductory assignment designed to help you familiarize yourself with what you can expect 
@@ -98,6 +99,7 @@ while running:
         if (not scored) and (pipe_x + pipe_width < bird_x):
             score += 1
             scored = True
+            score_sound.play()
 
 
         if pipe_x < -70:
